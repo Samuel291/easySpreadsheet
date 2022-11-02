@@ -1,0 +1,19 @@
+{
+  "name": "samuel291/easyspreadsheet",
+  "description": "A way to abstract and facilitate the creation and reading of spreadsheets using PhpSpreadsheet.",
+  "authors": [
+    {
+      "name": "Samuel Almeida",
+      "email": "samuel.a.lopes@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Samuel291\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "phpoffice/phpspreadsheet": "1.14.*"
+  }
+}
